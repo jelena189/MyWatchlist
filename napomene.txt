@@ -1,0 +1,15 @@
+-Baza je lokalna pa se podaci mogu importovati komandom : 
+apoc.import.graphml('graph.graphml',{batchSize: 10000, readLabels: true, storeNodeIds: false, defaultRelationshipType:"RELATED"})
+
+graph.graphml je fajl za importovanje.
+
+-U conf fajl(za Neo4j Desktop-moze se podesiti u Settings) se treba dodati:
+dbms.security.procedures.unrestricted=apoc.*
+apoc.export.file.enabled=true
+apoc.import.file.enabled=true
+
+-U folder plugins napravljene baze se treba dodati apoc jar fajl odgovarajuce verzije.
+
+-Ne postoji sign up za admina, moze se ulogovati sa sledecimpodacima:
+Email: Admin
+Password: Admin

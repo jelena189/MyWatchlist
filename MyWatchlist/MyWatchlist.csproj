@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FDC25D4F-8737-417F-A69E-0F9E0D0BDAD3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MyWatchlist</RootNamespace>
+    <AssemblyName>MyWatchlist</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Neo4j.Driver, Version=1.7.91.0, Culture=neutral, PublicKeyToken=c08b0bc1c355082b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Neo4j.Driver.Signed.1.7.0\lib\net452\Neo4j.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="Neo4jClient, Version=3.1.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Neo4jClient.3.1.0.6\lib\net46\Neo4jClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddActorOrCreator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddActorOrCreator.Designer.cs">
+      <DependentUpon>AddActorOrCreator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddAwards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAwards.Designer.cs">
+      <DependentUpon>AddAwards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAdd.Designer.cs">
+      <DependentUpon>AdminAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHome.Designer.cs">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUpdate.Designer.cs">
+      <DependentUpon>AdminUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DomainModel\Actor.cs" />
+    <Compile Include="DomainModel\Admin.cs" />
+    <Compile Include="DomainModel\Award.cs" />
+    <Compile Include="DomainModel\Creator.cs" />
+    <Compile Include="DomainModel\DataProvider.cs" />
+    <Compile Include="DomainModel\Genre.cs" />
+    <Compile Include="DomainModel\IdNode.cs" />
+    <Compile Include="DomainModel\TVShow.cs" />
+    <Compile Include="DomainModel\User.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TVShowDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TVShowDetails.Designer.cs">
+      <DependentUpon>TVShowDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddActorOrCreator.resx">
+      <DependentUpon>AddActorOrCreator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAwards.resx">
+      <DependentUpon>AddAwards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAdd.resx">
+      <DependentUpon>AdminAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminHome.resx">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUpdate.resx">
+      <DependentUpon>AdminUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TVShowDetails.resx">
+      <DependentUpon>TVShowDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<key id="lastName" for="node" attr.name="lastName" attr.type="string"/>
+<key id="img" for="node" attr.name="img" attr.type="string"/>
+<key id="Email" for="node" attr.name="Email" attr.type="string"/>
+<key id="year" for="node" attr.name="year" attr.type="string"/>
+<key id="creators" for="node" attr.name="creators" attr.type="string" attr.list="string"/>
+<key id="streamingService" for="node" attr.name="streamingService" attr.type="string"/>
+<key id="description" for="node" attr.name="description" attr.type="string"/>
+<key id="title" for="node" attr.name="title" attr.type="string"/>
+<key id="planToWatch" for="node" attr.name="planToWatch" attr.type="string" attr.list="string"/>
+<key id="result" for="node" attr.name="result" attr.type="string"/>
+<key id="password" for="node" attr.name="password" attr.type="string"/>
+<key id="award" for="node" attr.name="award" attr.type="string"/>
+<key id="genres" for="node" attr.name="genres" attr.type="string" attr.list="string"/>
+<key id="nominatedWork" for="node" attr.name="nominatedWork" attr.type="string"/>
+<key id="id" for="node" attr.name="id" attr.type="int"/>
+<key id="released" for="node" attr.name="released" attr.type="string"/>
+<key id="email" for="node" attr.name="email" attr.type="string"/>
+<key id="Password" for="node" attr.name="Password" attr.type="string"/>
+<key id="seasons" for="node" attr.name="seasons" attr.type="string"/>
+<key id="label" for="node" attr.name="label" attr.type="string"/>
+<key id="stars" for="node" attr.name="stars" attr.type="double"/>
+<key id="firstName" for="node" attr.name="firstName" attr.type="string"/>
+<key id="actors" for="node" attr.name="actors" attr.type="string" attr.list="string"/>
+<key id="watched" for="node" attr.name="watched" attr.type="string" attr.list="string"/>
+<key id="name" for="node" attr.name="name" attr.type="string"/>
+<key id="category" for="node" attr.name="category" attr.type="string"/>
+<key id="label" for="edge" attr.name="label" attr.type="string"/>
+<graph id="G" edgedefault="directed">
+<node id="n22" labels=":Admin"><data key="labels">:Admin</data><data key="Password">Admin</data><data key="Email">Admin</data></node>
+<node id="n43" labels=":IdNode"><data key="labels">:IdNode</data><data key="id">148</data></node>
+<node id="n152" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Cavill</data><data key="firstName">Henry</data><data key="id">0</data></node>
+<node id="n153" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Cranston</data><data key="firstName">Bryan</data><data key="id">4</data></node>
+<node id="n154" labels=":Creator"><data key="labels">:Creator</data><data key="lastName">Gilligan</data><data key="id">5</data><data key="firstName">Vince</data></node>
+<node id="n172" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Allan</data><data key="firstName">Freya</data><data key="id">1</data></node>
+<node id="n192" labels=":Creator"><data key="labels">:Creator</data><data key="lastName">Schmidt</data><data key="id">2</data><data key="firstName"> Lauren</data></node>
+<node id="n212" labels=":TVShow"><data key="labels">:TVShow</data><data key="released">2019</data><data key="img">TheWitcher.jpg</data><data key="title">The Witcher</data><data key="stars">3.125</data><data key="id">3</data><data key="streamingService">Netflix</data><data key="genres">["Action","Adventure","Drama"]</data><data key="seasons">1</data><data key="description">Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.</data></node>
+<node id="n213" labels=":TVShow"><data key="labels">:TVShow</data><data key="img">BreakingBad.jpg</data><data key="title">Breaking Bad</data><data key="id">6</data><data key="released">2008</data><data key="streamingService">hbo</data><data key="stars">2.75</data><data key="genres">["Crime","Drama","Thriller"]</data><data key="seasons">5</data><data key="description">A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.</data></node>
+<node id="n214" labels=":User"><data key="labels">:User</data><data key="email">nikola@gmail.com</data><data key="lastName">Cvetanovic</data><data key="watched">[]</data><data key="planToWatch">[]</data><data key="id">7</data><data key="firstName">Nikola</data><data key="password">123</data></node>
+<node id="n215" labels=":TVShow"><data key="labels">:TVShow</data><data key="img">You.jpg</data><data key="released">2018</data><data key="id">14</data><data key="stars">3.25</data><data key="title">You</data><data key="streamingService">Netflix</data><data key="genres">["Crime","Drama","Romance"]</data><data key="seasons">2</data><data key="description">A dangerously charming, intensely obsessive young man goes to extreme measures to insert himself into the lives of those he is transfixed by.</data></node>
+<node id="n234" labels=":User"><data key="labels">:User</data><data key="watched">[]</data><data key="planToWatch">[]</data><data key="email">aaa</data><data key="id">8</data><data key="firstName">a</data><data key="lastName">aa</data><data key="password">123</data></node>
+<node id="n254" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Badgley</data><data key="firstName">Penn</data><data key="id">9</data></node>
+<node id="n255" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Weathers</data><data key="firstName">Carl</data><data key="id">16</data></node>
+<node id="n256" labels=":Creator"><data key="labels">:Creator</data><data key="id">18</data><data key="firstName">Jon</data><data key="lastName">Favreau</data></node>
+<node id="n274" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Childers</data><data key="firstName">Ambyr</data><data key="id">10</data></node>
+<node id="n275" labels=":Creator"><data key="labels">:Creator</data><data key="id">12</data><data key="firstName">Greg</data><data key="lastName">Berlanti</data></node>
+<node id="n294" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Lail</data><data key="firstName">Elizabeth</data><data key="id">11</data></node>
+<node id="n314" labels=":Creator"><data key="labels">:Creator</data><data key="id">13</data><data key="firstName">Sera</data><data key="lastName">Gamble</data></node>
+<node id="n315" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Pascal</data><data key="firstName">Pedro</data><data key="id">15</data></node>
+<node id="n316" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Hackford</data><data key="firstName">Rio</data><data key="id">17</data></node>
+<node id="n334" labels=":TVShow"><data key="labels">:TVShow</data><data key="description">The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.</data><data key="title">The Mandalorian </data><data key="id">19</data><data key="stars">2.75</data><data key="genres">["Action","Adventure","Sci-fi"]</data><data key="streamingService">Disney plus</data><data key="released">2019</data><data key="img">TheMandalorian.jpg</data><data key="seasons">1</data></node>
+<node id="n335" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Winnick</data><data key="firstName">Katheryn</data><data key="id">20</data></node>
+<node id="n355" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Skarsgård</data><data key="firstName">Gustaf</data><data key="id">21</data></node>
+<node id="n375" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Ludwig</data><data key="firstName">Alexander</data><data key="id">22</data></node>
+<node id="n376" labels=":Creator"><data key="labels">:Creator</data><data key="lastName">Hirst</data><data key="id">23</data><data key="firstName">Michael</data></node>
+<node id="n395" labels=":TVShow"><data key="labels">:TVShow</data><data key="description">Vikings transports us to the brutal and mysterious world of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore - and raid - the distant shores across the ocean.</data><data key="title">Vikings</data><data key="id">24</data><data key="streamingService">Hulu</data><data key="released">2013</data><data key="stars">4.25</data><data key="img">Vikings.jpg</data><data key="seasons">6</data><data key="genres">["Action","Adventure","Drama"]</data></node>
+<node id="n396" labels=":Genre"><data key="labels">:Genre</data><data key="name">Adventure</data></node>
+<node id="n397" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Buckley</data><data key="firstName">Jessie</data><data key="id">25</data></node>
+<node id="n398" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Tipper</data><data key="firstName">Dominique</data><data key="id">55</data></node>
+<node id="n399" labels=":Creator"><data key="labels">:Creator</data><data key="id">56</data><data key="firstName">Mark</data><data key="lastName">Fergus</data></node>
+<node id="n400" labels=":Creator"><data key="labels">:Creator</data><data key="id">57</data><data key="firstName">Hawk</data><data key="lastName">Ostby</data></node>
+<node id="n416" labels=":Genre"><data key="labels">:Genre</data><data key="name">Action</data></node>
+<node id="n417" labels=":Genre"><data key="labels">:Genre</data><data key="name">War</data></node>
+<node id="n418" labels=":Genre"><data key="labels">:Genre</data><data key="name">History</data></node>
+<node id="n436" labels=":Genre"><data key="labels">:Genre</data><data key="name">Comedy</data></node>
+<node id="n437" labels=":Genre"><data key="labels">:Genre</data><data key="name">Sci-fi</data></node>
+<node id="n438" labels=":Genre"><data key="labels">:Genre</data><data key="name">Horror</data></node>
+<node id="n439" labels=":Genre"><data key="labels">:Genre</data><data key="name">Romance</data></node>
+<node id="n440" labels=":Genre"><data key="labels">:Genre</data><data key="name">Thriller</data></node>
+<node id="n441" labels=":Genre"><data key="labels">:Genre</data><data key="name">Drama</data></node>
+<node id="n442" labels=":Genre"><data key="labels">:Genre</data><data key="name">Mystery</data></node>
+<node id="n443" labels=":Genre"><data key="labels">:Genre</data><data key="name">Crime</data></node>
+<node id="n444" labels=":Genre"><data key="labels">:Genre</data><data key="name">Animation</data></node>
+<node id="n445" labels=":Genre"><data key="labels">:Genre</data><data key="name">Fantasy</data></node>
+<node id="n446" labels=":Genre"><data key="labels">:Genre</data><data key="name">Superhero</data></node>
+<node id="n447" labels=":Genre"><data key="labels">:Genre</data><data key="name">Family</data></node>
+<node id="n448" labels=":Genre"><data key="labels">:Genre</data><data key="name">Musical</data></node>
+<node id="n449" labels=":Genre"><data key="labels">:Genre</data><data key="name">Western</data></node>
+<node id="n456" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Harris</data><data key="firstName">Jared</data><data key="id">26</data></node>
+<node id="n457" labels=":Creator"><data key="labels">:Creator</data><data key="id">35</data><data key="firstName">Burk</data><data key="lastName">Sharpless</data></node>
+<node id="n458" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Strait</data><data key="firstName">Steven</data><data key="id">53</data></node>
+<node id="n459" labels=":TVShow"><data key="labels">:TVShow</data><data key="id">63</data><data key="released">2013</data><data key="title">Peaky Blinders</data><data key="stars">2.5</data><data key="description">A gangster family epic set in 1919 Birmingham, England; centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby.</data><data key="streamingService">Netflix</data><data key="img">peaky.jpg</data><data key="seasons">7</data></node>
+<node id="n476" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Skarsgård</data><data key="firstName">Stellan</data><data key="id">27</data></node>
+<node id="n477" labels=":Creator"><data key="labels">:Creator</data><data key="lastName">Mazin</data><data key="id">28</data><data key="firstName">Craig</data></node>
+<node id="n496" labels=":TVShow"><data key="labels">:TVShow</data><data key="released">2019</data><data key="title">Chernobyl</data><data key="stars">3.25</data><data key="id">29</data><data key="streamingService">HBO</data><data key="description">In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.</data><data key="img">Chernobyl.jpg</data><data key="seasons">1</data></node>
+<node id="n516" labels=":User"><data key="labels">:User</data><data key="watched">[]</data><data key="planToWatch">[]</data><data key="email">sss</data><data key="id">30</data><data key="firstName">sss</data><data key="lastName">ss</data><data key="password">sss</data></node>
+<node id="n517" labels=":Creator"><data key="labels">:Creator</data><data key="id">34</data><data key="firstName">Matt</data><data key="lastName">Sazama</data></node>
+<node id="n536" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Parker</data><data key="firstName">Molly</data><data key="id">31</data></node>
+<node id="n537" labels=":Creator"><data key="labels">:Creator</data><data key="lastName">Allen</data><data key="id">33</data><data key="firstName">Irwin</data></node>
+<node id="n556" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Stephens</data><data key="firstName">Toby</data><data key="id">32</data></node>
+<node id="n557" labels=":TVShow"><data key="labels">:TVShow</data><data key="title">Lost in space</data><data key="released">2018</data><data key="description">After crash-landing on an alien planet, the Robinson family fight against all odds to survive and escape, but they're surrounded by hidden dangers.</data><data key="stars">0</data><data key="id">36</data><data key="actors">[]</data><data key="creators">[]</data><data key="streamingService">Netflix</data><data key="img">Lostinspace.jpg</data><data key="seasons">2</data></node>
+<node id="n558" labels=":TVShow"><data key="labels">:TVShow</data><data key="title">Game of Thrones</data><data key="released">2011</data><data key="stars">3</data><data key="id">41</data><data key="streamingService">HBO</data><data key="description">Nine noble families fight for control over the mythical lands of Westeros, while an ancient enemy returns after being dormant for thousands of years.</data><data key="img">got.jpg</data><data key="seasons">8</data></node>
+<node id="n559" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Foy</data><data key="firstName">Claire</data><data key="id">42</data></node>
+<node id="n560" labels=":Creator"><data key="labels">:Creator</data><data key="lastName">Morgan</data><data key="id">45</data><data key="firstName">Peter</data></node>
+<node id="n576" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Clarke</data><data key="firstName">Emilia</data><data key="id">37</data></node>
+<node id="n577" labels=":TVShow"><data key="labels">:TVShow</data><data key="released">2005</data><data key="title">Doctor Who</data><data key="stars">2</data><data key="id">52</data><data key="streamingService">BBC</data><data key="description">The further adventures in time and space of the alien adventurer known as the Doctor and their companions from planet Earth.</data><data key="img">doctor.jpg</data><data key="seasons">12</data></node>
+<node id="n596" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Dinklage</data><data key="firstName">Peter</data><data key="id">38</data></node>
+<node id="n597" labels=":Creator"><data key="labels">:Creator</data><data key="lastName">Benioff</data><data key="id">40</data><data key="firstName">David</data></node>
+<node id="n616" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Harington</data><data key="firstName">Kit</data><data key="id">39</data></node>
+<node id="n617" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Anvar</data><data key="firstName">Cas</data><data key="id">54</data></node>
+<node id="n618" labels=":TVShow"><data key="labels">:TVShow</data><data key="id">58</data><data key="released">2015</data><data key="stars">0</data><data key="title">The Expanse</data><data key="creators">[]</data><data key="streamingService">Prime Video</data><data key="description">A police detective in the asteroid belt, the first officer of an interplanetary ice freighter, and an earth-bound United Nations executive slowly discover a vast conspiracy that threatens the Earth's rebellious colony on the asteroid belt.</data><data key="img">expanse.jpg</data><data key="seasons">5</data><data key="actors">[]</data></node>
+<node id="n636" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Colman</data><data key="firstName">Olivia</data><data key="id">43</data></node>
+<node id="n656" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Smith</data><data key="firstName">Matt</data><data key="id">44</data></node>
+<node id="n676" labels=":TVShow"><data key="labels">:TVShow</data><data key="id">46</data><data key="released">2016</data><data key="title">The Crown</data><data key="stars">2.5</data><data key="description">Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the twentieth century.</data><data key="streamingService">Netflix</data><data key="img">crown.jpg</data><data key="seasons">4</data></node>
+<node id="n696" labels=":User"><data key="labels">:User</data><data key="email">jelena@gmail.com</data><data key="lastName">Cvetkovic</data><data key="watched">[]</data><data key="planToWatch">[]</data><data key="id">47</data><data key="firstName">Jelena</data><data key="password">123</data></node>
+<node id="n697" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Whittaker</data><data key="firstName">Jodie</data><data key="id">48</data></node>
+<node id="n716" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Capaldi</data><data key="firstName">Peter</data><data key="id">49</data></node>
+<node id="n717" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Mackie</data><data key="firstName">Pearl</data><data key="id">50</data></node>
+<node id="n718" labels=":Creator"><data key="labels">:Creator</data><data key="lastName">Newman</data><data key="id">51</data><data key="firstName">Sydney</data></node>
+<node id="n736" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Murphy</data><data key="firstName">Cillian</data><data key="id">59</data></node>
+<node id="n756" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Anderson</data><data key="firstName">Paul</data><data key="id">60</data></node>
+<node id="n776" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">McCrory</data><data key="firstName">Helen</data><data key="id">61</data></node>
+<node id="n777" labels=":Creator"><data key="labels">:Creator</data><data key="lastName">Knight</data><data key="id">62</data><data key="firstName">Steven</data></node>
+<node id="n778" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">West</data><data key="firstName">Dominic</data><data key="id">64</data></node>
+<node id="n779" labels=":Creator"><data key="labels">:Creator</data><data key="lastName">Simon</data><data key="id">66</data><data key="firstName">David</data></node>
+<node id="n798" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Reddick</data><data key="firstName">Lance</data><data key="id">65</data></node>
+<node id="n818" labels=":TVShow"><data key="labels">:TVShow</data><data key="title">The Wire</data><data key="released">2002</data><data key="description">The Baltimore drug scene, as seen through the eyes of drug dealers and law enforcement.</data><data key="stars">0</data><data key="id">67</data><data key="img">wire.jpg</data><data key="seasons">5</data><data key="streamingService">HBO</data></node>
+<node id="n819" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Freeman</data><data key="firstName">Martin</data><data key="id">74</data></node>
+<node id="n820" labels=":Creator"><data key="labels">:Creator</data><data key="id">75</data><data key="firstName">Mark</data><data key="lastName">Gatiss</data></node>
+<node id="n821" labels=":Creator"><data key="labels">:Creator</data><data key="lastName">Moffat</data><data key="id">76</data><data key="firstName">Steven</data></node>
+<node id="n822" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Vaughn</data><data key="firstName">Vince</data><data key="id">78</data></node>
+<node id="n823" labels=":TVShow"><data key="labels">:TVShow</data><data key="title">True Detective</data><data key="released">2014</data><data key="description">Seasonal anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outside the law.</data><data key="stars">0</data><data key="id">81</data><data key="img">truedetective.jpg</data><data key="seasons">3</data><data key="streamingService">HBO</data></node>
+<node id="n824" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Bobby Brown</data><data key="firstName">Millie</data><data key="id">82</data></node>
+<node id="n825" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Wolfhard</data><data key="firstName">Finn</data><data key="id">83</data></node>
+<node id="n838" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Roiland</data><data key="firstName">Justin</data><data key="id">68</data></node>
+<node id="n839" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Parnell</data><data key="firstName">Chris</data><data key="id">69</data></node>
+<node id="n840" labels=":Creator"><data key="labels">:Creator</data><data key="id">70</data><data key="firstName">Dan</data><data key="lastName">Harmon</data></node>
+<node id="n841" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Cumberbatch</data><data key="firstName">Benedict</data><data key="id">73</data></node>
+<node id="n858" labels=":Creator"><data key="labels">:Creator</data><data key="lastName">Roiland</data><data key="id">71</data><data key="firstName">Justin</data></node>
+<node id="n859" labels=":TVShow"><data key="labels">:TVShow</data><data key="title">Stranger Things</data><data key="stars">0</data><data key="released">2016</data><data key="streamingService">Netflix</data><data key="description">When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.</data><data key="id">84</data><data key="img">strangerthings.jpg</data><data key="seasons">4</data></node>
+<node id="n878" labels=":TVShow"><data key="labels">:TVShow</data><data key="title">Rick and Morty</data><data key="id">72</data><data key="released">2013</data><data key="streamingService">Adult Swim</data><data key="stars">0</data><data key="img">randm.jpg</data><data key="seasons">4</data><data key="description">An animated series that follows the exploits of a super scientist and his not-so-bright grandson.</data></node>
+<node id="n879" labels=":Creator"><data key="labels">:Creator</data><data key="id">80</data><data key="firstName">Nic</data><data key="lastName">Pizzolatto</data></node>
+<node id="n880" labels=":TVShow"><data key="labels">:TVShow</data><data key="id">89</data><data key="released">2018</data><data key="title">The Haunting of Hill House</data><data key="streamingService">Netflix</data><data key="stars">3.75</data><data key="img">haunting.jpg</data><data key="seasons">2</data><data key="description">Flashing between past and present, a fractured family confronts haunting memories of their old home and the terrifying events that drove them from it.</data></node>
+<node id="n898" labels=":TVShow"><data key="labels">:TVShow</data><data key="title">Sherlock</data><data key="id">77</data><data key="released">2010</data><data key="streamingService">Netflix</data><data key="stars">3.75</data><data key="img">sherlock.jpg</data><data key="seasons">4</data><data key="description">A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.</data></node>
+<node id="n899" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Farrell</data><data key="firstName">Colin</data><data key="id">79</data></node>
+<node id="n918" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Thomas</data><data key="firstName">Henry</data><data key="id">85</data></node>
+<node id="n919" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Siegel</data><data key="firstName">Kate</data><data key="id">86</data></node>
+<node id="n920" labels=":Actor"><data key="labels">:Actor</data><data key="lastName">Jackson-Cohen</data><data key="firstName">Oliver</data><data key="id">87</data></node>
+<node id="n921" labels=":Creator"><data key="labels">:Creator</data><data key="id">88</data><data key="firstName">Mike</data><data key="lastName">Flanagan</data></node>
+<node id="n922" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Justice League</data><data key="category">Choice Action Movie Actor</data><data key="award">Teen Choice Awards</data><data key="result">Nominated	</data><data key="id">90</data><data key="year">2018</data></node>
+<node id="n942" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Batman v Superman: Dawn of Justice</data><data key="category">Favorite Movie Actor</data><data key="award">Kids' Choice Awards</data><data key="result">Nominated</data><data key="id">91</data><data key="year">2017</data></node>
+<node id="n943" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Margin Call</data><data key="category">Best Performance by an Ensemble</data><data key="award">Phoenix Film Critics Society Award</data><data key="result">Nominated</data><data key="id">97</data><data key="year">2011</data></node>
+<node id="n944" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Den osynlige</data><data key="category">Best Actor</data><data key="year">2004</data><data key="result">Won</data><data key="award">Screamfest</data><data key="id">106</data></node>
+<node id="n945" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Hunger Games</data><data key="id">108</data><data key="category">Best Fight</data><data key="year">2012</data><data key="result">Won</data><data key="award">MTV Movie Award</data></node>
+<node id="n946" labels=":Award"><data key="labels">:Award</data><data key="year">2019</data><data key="nominatedWork">Wild Rose</data><data key="id">109</data><data key="category">Best Actress - Film</data><data key="result">Won</data><data key="award">BAFTA Scotland Award</data></node>
+<node id="n947" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Game Of Thrones</data><data key="id">119</data><data key="category">Best Performance by an Actor in a Television Series - Drama</data><data key="year">2020</data><data key="result">Nominated</data><data key="award">Golden Globe</data></node>
+<node id="n948" labels=":Award"><data key="labels">:Award</data><data key="year">2016</data><data key="nominatedWork">Game Of Thrones</data><data key="id">120</data><data key="category">Drama Supporting Actor</data><data key="result">Won</data><data key="award">Gold Derby TV Award</data></node>
+<node id="n949" labels=":Award"><data key="labels">:Award</data><data key="category">Best Performance by an Actress in a Television Series - Drama</data><data key="year">2020</data><data key="nominatedWork">The Crown</data><data key="result">Won</data><data key="award">Golden Globe</data><data key="id">123</data></node>
+<node id="n950" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Franz Kafka's It's a Wonderful Life</data><data key="year">1995</data><data key="category">Best Short Film, Live Action</data><data key="result">Won</data><data key="award">Oscar</data><data key="id">126</data></node>
+<node id="n962" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Man of Steel</data><data key="id">92</data><data key="category">Best Hero</data><data key="year">2014</data><data key="result">Won</data><data key="award">MTV Movie Awards</data></node>
+<node id="n963" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Toy story of terror</data><data key="category">Best Male Vocal Performance in a TV </data><data key="award">BTVA Special/DVD Voice Acting Award</data><data key="result">Won</data><data key="id">99</data><data key="year">2013</data></node>
+<node id="n964" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">	The Simple-Minded Murderer</data><data key="year">1982</data><data key="award">Berlin International Film Festival</data><data key="result">Won</data><data key="id">112</data><data key="category">Best Actor</data></node>
+<node id="n965" labels=":Award"><data key="labels">:Award</data><data key="category">Best Performance by an Actress in a Leading Role</data><data key="year">2019</data><data key="nominatedWork">The Favourite</data><data key="result">Won</data><data key="award">Oscar</data><data key="id">122</data></node>
+<node id="n966" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Brawl in Cell Block 99</data><data key="category">Best Actor</data><data key="year">2018</data><data key="result">Won</data><data key="award">Saturn Award</data><data key="id">136</data></node>
+<node id="n982" labels=":Award"><data key="labels">:Award</data><data key="id">101</data><data key="category">Best Actress in Streaming Presentation</data><data key="year">2019</data><data key="nominatedWork">You</data><data key="result">Nominated</data><data key="award">Saturn Awards</data></node>
+<node id="n983" labels=":Award"><data key="labels">:Award</data><data key="year">2002</data><data key="nominatedWork">Malcolm in the Middle</data><data key="award">Emmy Awards (Primetime)</data><data key="result">Nominated</data><data key="id">94</data><data key="category">Outstanding Supporting Actor in a Comedy Series</data></node>
+<node id="n984" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">We Are What We Are</data><data key="category">Best Supporting Actress</data><data key="award">Fangoria Chainsaw Awards</data><data key="result">Nominated</data><data key="id">100</data><data key="year">2014</data></node>
+<node id="n985" labels=":Award"><data key="labels">:Award</data><data key="year">2012</data><data key="nominatedWork">Children of the Air</data><data key="award">Beverly Hills Film Festival</data><data key="result">Won</data><data key="id">105</data><data key="category">Best Actress</data></node>
+<node id="n986" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Game Of Thrones</data><data key="category">Best Performance by an Actor in a Supporting Role</data><data key="year">2012</data><data key="result">Won</data><data key="award">Golden Globe</data><data key="id">117</data></node>
+<node id="n987" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Harry Potter and the Deathly Hallows</data><data key="id">132</data><data key="category">Ensemble Cast</data><data key="year">2012</data><data key="result">Won</data><data key="award">Gold Derby Award</data></node>
+<node id="n988" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Sherlock</data><data key="id">135</data><data key="category">Outstanding Supporting Actor in a Miniseries or a Movie</data><data key="year">2014</data><data key="result">Nominated</data><data key="award">Primetime Emmy</data></node>
+<node id="n989" labels=":Award"><data key="labels">:Award</data><data key="year">2018</data><data key="nominatedWork">It</data><data key="id">138</data><data key="category">Best On-Screen Team</data><data key="result">Won</data><data key="award">MTV Movie + TV Award</data></node>
+<node id="n990" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">The Imitation Game</data><data key="id">140</data><data key="category">Best Performance by an Actor in a Leading Role</data><data key="year">2015</data><data key="result">Nominated</data><data key="award">Oscar</data></node>
+<node id="n1002" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Breaking Bad</data><data key="id">95</data><data key="category">	Best Actor in a Television Series – Drama</data><data key="year">2012</data><data key="result">Won</data><data key="award">Golden Globe Awards</data></node>
+<node id="n1003" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">The Paper Store</data><data key="id">98</data><data key="category">Best Actor</data><data key="year">2016</data><data key="result">Won</data><data key="award">Oxford Film Festival</data></node>
+<node id="n1004" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">The Clockmaker's Dream</data><data key="id">111</data><data key="category">Best Narration</data><data key="year">2016</data><data key="result">Won</data><data key="award">Angel Film Award</data></node>
+<node id="n1005" labels=":Award"><data key="labels">:Award</data><data key="year">2006</data><data key="nominatedWork">Red Eye</data><data key="id">128</data><data key="category">Best Supporting Actor</data><data key="result">Nominated</data><data key="award">Saturn Award</data></node>
+<node id="n1006" labels=":Award"><data key="labels">:Award</data><data key="year">2017</data><data key="nominatedWork">Stranger Things</data><data key="category">Best Performance by a Younger Actor</data><data key="result">Won</data><data key="award">Saturn Award</data><data key="id">137</data></node>
+<node id="n1007" labels=":Award"><data key="labels">:Award</data><data key="year">fe</data><data key="nominatedWork">snf </data><data key="result">snf </data><data key="award">sb</data><data key="id">145</data><data key="category">snf</data></node>
+<node id="n1008" labels=":Award"><data key="labels">:Award</data><data key="year">dg</data><data key="nominatedWork">db</data><data key="result">sb</data><data key="award">bd</data><data key="id">147</data><data key="category">df</data></node>
+<node id="n1022" labels=":Award"><data key="labels">:Award</data><data key="category">	Bodil Award for Best Actor</data><data key="id">113</data><data key="year">2014</data><data key="nominatedWork">Nymphomaniac</data><data key="result">Nominated</data><data key="award">Bodil Awards</data></node>
+<node id="n1023" labels=":Award"><data key="labels">:Award</data><data key="category">Best Actress in a Television Series</data><data key="id">125</data><data key="year">2019</data><data key="nominatedWork">Doctor Who</data><data key="result">Nominated</data><data key="award">Saturn Award</data></node>
+<node id="n1040" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Game Of Thrones</data><data key="category">Breakthrough Performer of the Year</data><data key="id">102</data><data key="year">2014</data><data key="result">Won</data><data key="award">Gold Derby Awards</data></node>
+<node id="n1041" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Narcos</data><data key="category">Best Actor – Television</data><data key="award">Imagen Foundation Awards</data><data key="result">Nominated</data><data key="id">103</data><data key="year">2016</data></node>
+<node id="n1042" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Judy, Wild Rose</data><data key="category">Breakthrough Artist</data><data key="year">2019</data><data key="result">Nominated</data><data key="award">San Diego Film Critics Society Awards</data><data key="id">110</data></node>
+<node id="n1043" labels=":Award"><data key="labels">:Award</data><data key="category">Best Lead Actor, Drama Series</data><data key="id">107</data><data key="year">2018</data><data key="nominatedWork">Vikings</data><data key="result">Won</data><data key="award">Canadian Screen Award</data></node>
+<node id="n1044" labels=":Award"><data key="labels">:Award</data><data key="category">Outstanding Performance - Female</data><data key="id">114</data><data key="year">2011</data><data key="nominatedWork">Trigger</data><data key="result">Won</data><data key="award">ACTRA Toronto Award</data></node>
+<node id="n1045" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">The Dark Knight</data><data key="category">Best Cast Ensemble</data><data key="result">Won</data><data key="award">ACCA</data><data key="id">129</data><data key="year">2008</data></node>
+<node id="n1060" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Doctor Who</data><data key="id">124</data><data key="category">Best Actor</data><data key="year">2011</data><data key="result">Nominated</data><data key="award">BAFTA TV Award</data></node>
+<node id="n1079" labels=":Award"><data key="labels">:Award</data><data key="category">Best Performance by an Actress in a Television Series - Drama</data><data key="year">2017</data><data key="nominatedWork">The Crown</data><data key="result">Won</data><data key="award">Golden Globe</data><data key="id">115</data></node>
+<node id="n1080" labels=":Award"><data key="labels">:Award</data><data key="year">2017</data><data key="nominatedWork">Doctor Who</data><data key="id">127</data><data key="category">Favourite Newcomer</data><data key="result">Nominated</data><data key="award">TV Times Award</data></node>
+<node id="n1081" labels=":Award"><data key="labels">:Award</data><data key="year">2014</data><data key="nominatedWork">Peaky Blinders</data><data key="category">TV Series and Serials: Actor</data><data key="result">Won</data><data key="award">Golden FIPA</data><data key="id">130</data></node>
+<node id="n1082" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Harry Potter and the Deathly Hallows</data><data key="id">133</data><data key="category">Ensemble Cast</data><data key="year">2012</data><data key="result">Won</data><data key="award">Gold Derby Award</data></node>
+<node id="n1083" labels=":Award"><data key="labels">:Award</data><data key="year">2014</data><data key="nominatedWork">Burton and Taylor</data><data key="id">134</data><data key="category">Best Leading Actor</data><data key="result">Nominated</data><data key="award">BAFTA TV Award</data></node>
+<node id="n1099" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Game Of Thrones</data><data key="award">Primetime Emmy Award</data><data key="year">2019</data><data key="result">Nominated</data><data key="id">116</data><data key="category">Outstanding Lead Actress in a Drama Series</data></node>
+<node id="n1100" labels=":Award"><data key="labels">:Award</data><data key="year">2014</data><data key="nominatedWork">Peaky Blinders</data><data key="category">TV Series and Serials: Actress</data><data key="result">Won</data><data key="award">Golden FIPA</data><data key="id">131</data></node>
+<node id="n1101" labels=":Award"><data key="labels">:Award</data><data key="year">2018</data><data key="nominatedWork">Rick And Morty</data><data key="category">Outstanding Animated Program</data><data key="result">Won</data><data key="award">Primetime Emmy</data><data key="id">139</data></node>
+<node id="n1102" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Hush</data><data key="id">143</data><data key="category">Best Actress</data><data key="year">2017</data><data key="result">Nominated</data><data key="award">Chainsaw Award</data></node>
+<node id="n1119" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Game Of Thrones</data><data key="category">Outstanding Supporting Actor in a Drama Series</data><data key="year">2019</data><data key="result">Won</data><data key="award">Primetime Emmy</data><data key="id">118</data></node>
+<node id="n1120" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">The Phantom</data><data key="category">Outstanding Performance - Male</data><data key="award">ACTRA Montreal Award</data><data key="result">Nominated</data><data key="id">121</data><data key="year">2010</data></node>
+<node id="n1121" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">Patrick Melrose</data><data key="category">Best Leading Actor</data><data key="year">2019</data><data key="result">Won</data><data key="award">BAFTA TV Award</data><data key="id">141</data></node>
+<node id="n1122" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">The Lobster</data><data key="id">142</data><data key="category">Best Actor</data><data key="year">2016</data><data key="result">Nominated</data><data key="award">AFCA Award</data></node>
+<node id="n1123" labels=":Award"><data key="labels">:Award</data><data key="nominatedWork">The Secret River</data><data key="id">144</data><data key="category">Best Lead Actor in a Television Drama</data><data key="year">2015</data><data key="result">Nominated</data><data key="award">AACTA Award</data></node>
+<node id="n1124" labels=":Award"><data key="labels">:Award</data><data key="year">adf</data><data key="nominatedWork">vad</data><data key="result">vad</data><data key="award">fa</data><data key="id">146</data><data key="category">fad</data></node>
+<edge id="e0" source="n212" target="n152" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e114" source="n212" target="n172" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e134" source="n212" target="n192" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e154" source="n213" target="n153" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e174" source="n213" target="n154" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e175" source="n215" target="n275" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e196" source="n215" target="n254" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e235" source="n334" target="n255" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e291" source="n215" target="n274" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e292" source="n334" target="n316" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e310" source="n234" target="n213" label="watched"><data key="label">watched</data></edge>
+<edge id="e311" source="n234" target="n212" label="watched"><data key="label">watched</data></edge>
+<edge id="e313" source="n215" target="n294" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e352" source="n215" target="n314" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e353" source="n334" target="n315" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e372" source="n334" target="n256" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e373" source="n395" target="n335" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e412" source="n234" target="n215" label="watched"><data key="label">watched</data></edge>
+<edge id="e488" source="n395" target="n355" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e508" source="n395" target="n375" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e528" source="n395" target="n376" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e529" source="n496" target="n397" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e530" source="n496" target="n418" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e531" source="n557" target="n536" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e532" source="n557" target="n396" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e549" source="n496" target="n456" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e550" source="n496" target="n440" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e551" source="n577" target="n447" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e552" source="n618" target="n398" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e553" source="n618" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e569" source="n496" target="n476" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e570" source="n496" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e571" source="n234" target="n496" label="planToWatchh"><data key="label">planToWatchh</data></edge>
+<edge id="e572" source="n214" target="n496" label="watched"><data key="label">watched</data></edge>
+<edge id="e573" source="n558" target="n596" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e574" source="n558" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e575" source="n557" target="n537" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e576" source="n557" target="n447" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e577" source="n558" target="n576" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e578" source="n558" target="n416" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e589" source="n496" target="n477" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e590" source="n696" target="n212" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e591" source="n696" target="n577" label="watched"><data key="label">watched</data></edge>
+<edge id="e592" source="n516" target="n496" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e593" source="n516" target="n334" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e594" source="n516" target="n395" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e595" source="n516" target="n212" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e609" source="n212" target="n416" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e610" source="n212" target="n396" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e611" source="n212" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e612" source="n213" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e613" source="n213" target="n443" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e614" source="n213" target="n440" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e615" source="n215" target="n443" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e616" source="n215" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e617" source="n215" target="n439" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e618" source="n334" target="n416" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e619" source="n334" target="n396" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e620" source="n334" target="n437" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e621" source="n395" target="n416" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e622" source="n395" target="n396" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e623" source="n395" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e629" source="n214" target="n395" label="watched"><data key="label">watched</data></edge>
+<edge id="e630" source="n214" target="n215" label="planToWatchh"><data key="label">planToWatchh</data></edge>
+<edge id="e631" source="n557" target="n517" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e649" source="n516" target="n496" label="watched"><data key="label">watched</data></edge>
+<edge id="e650" source="n557" target="n556" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e651" source="n214" target="n334" label="watched"><data key="label">watched</data></edge>
+<edge id="e652" source="n696" target="n558" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e653" source="n577" target="n697" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e654" source="n577" target="n396" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e669" source="n234" target="n334" label="planToWatchh"><data key="label">planToWatchh</data></edge>
+<edge id="e670" source="n516" target="n212" label="watched"><data key="label">watched</data></edge>
+<edge id="e671" source="n516" target="n395" label="watched"><data key="label">watched</data></edge>
+<edge id="e672" source="n516" target="n334" label="watched"><data key="label">watched</data></edge>
+<edge id="e673" source="n557" target="n457" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e674" source="n558" target="n396" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e675" source="n676" target="n559" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e676" source="n676" target="n418" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e677" source="n696" target="n558" label="watched"><data key="label">watched</data></edge>
+<edge id="e678" source="n696" target="n212" label="watched"><data key="label">watched</data></edge>
+<edge id="e679" source="n577" target="n716" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e680" source="n577" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e689" source="n234" target="n395" label="watched"><data key="label">watched</data></edge>
+<edge id="e690" source="n214" target="n213" label="watched"><data key="label">watched</data></edge>
+<edge id="e711" source="n676" target="n560" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e728" source="n557" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e729" source="n696" target="n215" label="watched"><data key="label">watched</data></edge>
+<edge id="e730" source="n696" target="n577" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e748" source="n818" target="n443" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e749" source="n577" target="n717" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e750" source="n618" target="n458" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e751" source="n577" target="n718" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e767" source="n459" target="n777" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e800" source="n558" target="n616" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e801" source="n558" target="n445" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e802" source="n618" target="n399" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e803" source="n618" target="n442" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e804" source="n459" target="n756" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e805" source="n459" target="n443" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e820" source="n558" target="n597" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e821" source="n676" target="n636" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e822" source="n676" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e840" source="n676" target="n656" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e860" source="n618" target="n400" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e877" source="n618" target="n617" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e878" source="n618" target="n437" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e897" source="n459" target="n736" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e898" source="n459" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e917" source="n459" target="n776" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e918" source="n516" target="n676" label="planToWatchh"><data key="label">planToWatchh</data></edge>
+<edge id="e919" source="n696" target="n676" label="watched"><data key="label">watched</data></edge>
+<edge id="e920" source="n696" target="n676" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e921" source="n818" target="n779" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e922" source="n859" target="n825" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e939" source="n696" target="n459" label="watched"><data key="label">watched</data></edge>
+<edge id="e940" source="n818" target="n778" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e941" source="n234" target="n213" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e942" source="n234" target="n212" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e943" source="n234" target="n215" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e944" source="n234" target="n395" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e945" source="n818" target="n798" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e946" source="n823" target="n822" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e947" source="n823" target="n443" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e958" source="n696" target="n215" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e959" source="n696" target="n459" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e960" source="n818" target="n440" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e961" source="n878" target="n839" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e962" source="n878" target="n436" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e963" source="n898" target="n821" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e964" source="n823" target="n879" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e965" source="n234" target="n880" label="watched"><data key="label">watched</data></edge>
+<edge id="e976" source="n823" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e977" source="n880" target="n919" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e978" source="n880" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e980" source="n516" target="n898" label="watched"><data key="label">watched</data></edge>
+<edge id="e981" source="n516" target="n880" label="watched"><data key="label">watched</data></edge>
+<edge id="e982" source="n214" target="n334" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e983" source="n214" target="n213" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e984" source="n214" target="n395" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e985" source="n214" target="n496" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e994" source="n818" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e995" source="n898" target="n841" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e996" source="n898" target="n441" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e997" source="n823" target="n442" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e998" source="n859" target="n824" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e1014" source="n878" target="n838" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e1015" source="n878" target="n396" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e1016" source="n859" target="n445" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e1034" source="n878" target="n840" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e1035" source="n878" target="n444" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e1036" source="n880" target="n920" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e1037" source="n880" target="n442" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e1054" source="n878" target="n858" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e1055" source="n898" target="n819" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e1056" source="n898" target="n442" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e1057" source="n823" target="n899" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e1058" source="n859" target="n438" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e1059" source="n880" target="n921" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e1060" source="n516" target="n558" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e1061" source="n234" target="n898" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e1074" source="n898" target="n820" label="hasCreator"><data key="label">hasCreator</data></edge>
+<edge id="e1075" source="n898" target="n443" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e1076" source="n880" target="n918" label="hasActor"><data key="label">hasActor</data></edge>
+<edge id="e1077" source="n880" target="n438" label="hasGenre"><data key="label">hasGenre</data></edge>
+<edge id="e1078" source="n516" target="n558" label="watched"><data key="label">watched</data></edge>
+<edge id="e1079" source="n234" target="n880" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e1080" source="n234" target="n898" label="watched"><data key="label">watched</data></edge>
+<edge id="e1081" source="n516" target="n880" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e1082" source="n516" target="n898" label="Rate"><data key="label">Rate</data></edge>
+<edge id="e1083" source="n152" target="n922" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1103" source="n152" target="n942" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1104" source="n254" target="n943" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1105" source="n536" target="n1044" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1106" source="n716" target="n950" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1107" source="n819" target="n988" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1123" source="n152" target="n962" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1124" source="n294" target="n982" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1125" source="n153" target="n983" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1126" source="n559" target="n1079" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1143" source="n153" target="n1002" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1144" source="n576" target="n1099" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1145" source="n697" target="n1023" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1146" source="n152" target="n1008" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1163" source="n254" target="n1003" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1164" source="n476" target="n964" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1165" source="n776" target="n1100" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1166" source="n776" target="n1082" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1167" source="n778" target="n1083" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1168" source="n822" target="n966" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1169" source="n824" target="n1006" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1170" source="n838" target="n1101" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1183" source="n476" target="n1022" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1184" source="n636" target="n949" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1185" source="n152" target="n1007" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1201" source="n255" target="n963" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1202" source="n355" target="n944" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1203" source="n375" target="n945" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1204" source="n397" target="n946" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1205" source="n717" target="n1080" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1206" source="n841" target="n1121" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1221" source="n274" target="n984" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1222" source="n315" target="n1040" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1223" source="n315" target="n1041" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1224" source="n335" target="n985" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1225" source="n596" target="n1119" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1226" source="n656" target="n1060" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1227" source="n776" target="n987" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1228" source="n825" target="n989" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1229" source="n919" target="n1102" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1230" source="n920" target="n1123" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1241" source="n375" target="n1043" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1242" source="n456" target="n1004" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1243" source="n736" target="n1081" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1244" source="n899" target="n1122" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1245" source="n152" target="n1124" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1260" source="n397" target="n1042" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1261" source="n617" target="n1120" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1262" source="n736" target="n1005" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1263" source="n736" target="n1045" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1280" source="n596" target="n986" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1281" source="n616" target="n947" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1282" source="n616" target="n948" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1283" source="n636" target="n965" label="hasAward"><data key="label">hasAward</data></edge>
+<edge id="e1284" source="n841" target="n990" label="hasAward"><data key="label">hasAward</data></edge>
+</graph>
+</graphml>
